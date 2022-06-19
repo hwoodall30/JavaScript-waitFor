@@ -12,7 +12,7 @@ Wait for Object function and wait for Element function
 - Wait for Object Parameters
 1. `Object` - target Object
 2. `Key` - Specific Property on Object
-3. `Once` - Event listener will be removed after Object property is set the first time
+3. `Once` - Event listener will be removed after Object property is set the first time if `true`. If false, the event listener callback will be run everytime the property is set.
 4. `Callback` - Callback function that will run after the event is fired
 
 ```js
