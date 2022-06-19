@@ -2,7 +2,7 @@
 Wait for Object function and wait for Element function
 
 
-##Usage
+## Usage
 
 - Wait For Element Parameters:
 1. `Selector` - Element searched for by `querySelector`
