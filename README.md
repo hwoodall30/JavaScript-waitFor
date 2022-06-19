@@ -7,7 +7,7 @@ Wait for Object function and wait for Element function
 - Wait For Element Parameters:
 1. `Selector` - Element searched for by `querySelector`
 2. `Timeout` - Will error if element is not available before timeout is over
-3. `Interval` - if `0` will run every frame until element is found or timeout is reached. Otherwise, this value specifies the interval that the function will check for the element.
+3. `Interval` - if `0` will run every frame until element is found or timeout is reached. Otherwise, this value specifies the interval that the function will check for the element. (can be excluded -- default is `0`)
 
 - Wait for Object Parameters
 1. `Object` - target Object
